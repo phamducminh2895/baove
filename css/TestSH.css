@@ -1,0 +1,2148 @@
+/* Tất cả các màn hình có độ phân giải thấp nhất là 1350px (done) */
+@media all and (min-width: 1350px) {
+    .banner {
+        float: left;
+        max-width: 1350px;
+        height: 300px;
+        margin-bottom: 5px;
+    }
+
+    .head-link {
+        max-width: 1350px;
+        height: 30px;
+        margin-bottom: 5px;
+        line-height: 30px;
+        border: 1px solid #CDCDCD;
+        background-color: gold;
+        color: red;
+        font-size: 23px;
+        font-weight: bold;
+        text-align: center;
+        clear: both;
+    }
+
+    .content {
+        width: 925px;
+        min-height: 930px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    .nav {
+        max-width: 1350px;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        background-color: #000000;
+        border: 0px solid #CDCDCD;
+        margin-bottom: 5px;
+    }
+
+    .nav ul, .nav li {
+        padding: 0px;
+        margin: 0;
+        position: relative;
+        left: auto;
+    }
+
+    .nav li {
+        position: relative;
+        float: left;
+        list-style: none;
+    }
+
+    .nav li a {
+        margin-left: 48px;
+        width: 130px;
+        height: 30px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+
+    .nav ul ul li a {
+        margin-left: 75px;
+        width: 100px;
+        text-align: left;
+        padding-left: 20px;
+
+    }
+
+    .nav li a:hover {
+        font-size: 20px;
+        color: red;
+    }
+
+    .nav ul ul {
+        position: absolute;
+        top: 30px;
+        visibility: hidden;
+    }
+
+    .nav ul li:hover ul {
+        visibility: visible;
+
+    }
+
+    .left {
+        width: 190px;
+        min-height: 700px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        background: linear-gradient(black, blue, darkcyan);
+        margin-bottom: 5px;
+    }
+
+    .menu, .menu ul, .menu li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu li {
+        font-size: medium;
+        list-style: none;
+        position: relative;
+        width: 180px;
+        height: 30px;
+        padding: 0 5px;
+        background-color: grey;
+        line-height: 30px;
+        cursor: pointer;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu li:hover {
+        background-color: red;
+    }
+
+    /*dẫn link*/
+    a:hover {
+        color: red;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        top: 0;
+        left: 190px;
+        visibility: hidden;
+    }
+
+    .menu ul li:hover ul {
+        visibility: visible;
+    }
+
+    h3 {
+        color: white;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .theloai {
+        max-width: 190px;
+        height: 61px;
+        padding: 0px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    .right {
+        width: 200px;
+        min-height: 680px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        background: linear-gradient(black, blue, darkcyan);
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+
+    .footer {
+        max-width: 1350px;
+        height: 60px;
+        clear: both;
+        border: 1px solid #CDCDCD;
+        background: linear-gradient(blue, black);
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    .info1 {
+        float: left;
+        margin: 10px;
+        padding: 10px;
+        max-width: 210px;
+        height: 320px;
+        text-align: justify;
+    }
+
+    .info2 {
+        float: left;
+        margin: 5px;
+        padding: 5px;
+        max-width: 640px;
+        height: 350px;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .info3 {
+        float: left;
+        margin: 10px;
+        padding: 10px;
+        max-width: 900px;
+        height: 520px;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .info3 pre {
+        max-width: 200px;
+    }
+
+    .button {
+        position: relative;
+        float: left;
+        margin-left: 480px;
+        margin-top: -150px;
+        padding: 20px 15px;
+        background-color: #33b5e5;
+        cursor: pointer;
+        border: none;
+        overflow: hidden;
+        font-size: 15px;
+    }
+
+    .button:hover {
+        background-color: #0099cc;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -60px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    .button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+    }
+
+    .listchap {
+        float: left;
+        margin-left: 255px;
+        margin-top: -70px;
+        padding: 5px;
+        width: 640px;
+        height: 350px;
+        font-size: 16px;
+        text-align: justify;
+    }
+}
+
+/* Màn hình có độ phân giải tối đa 1350px (done) */
+@media all and (max-width: 1350px) {
+    .banner {
+        float: left;
+        max-width: 1350px;
+        height: 300px;
+        margin-bottom: 5px;
+    }
+
+    .head-link {
+        max-width: 1350px;
+        height: 30px;
+        margin-bottom: 5px;
+        line-height: 30px;
+        border: 1px solid #CDCDCD;
+        background-color: gold;
+        color: red;
+        font-size: 23px;
+        font-weight: bold;
+        text-align: center;
+        clear: both;
+    }
+
+    .content {
+        width: 800px;
+        min-height: 930px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    .nav {
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        background-color: #000000;
+        border: 0px solid #CDCDCD;
+        margin-bottom: 5px;
+    }
+
+    .nav ul, .nav li {
+        padding: 0px;
+        margin: 0;
+        position: relative;
+        left: auto;
+    }
+
+    .nav li {
+        position: relative;
+        float: left;
+        list-style: none;
+    }
+
+    .nav li a {
+        width: 120px;
+        height: 30px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+        background-color: black;
+        color: white;
+        font-size: medium;
+    }
+
+    .nav ul ul li a {
+        width: 100px;
+        text-align: left;
+        padding-left: 10px;
+
+    }
+
+    .nav li a:hover {
+        font-size: 20px;
+        color: red;
+    }
+
+    .nav ul ul {
+        position: absolute;
+        top: 30px;
+        visibility: hidden;
+    }
+
+    .nav ul li:hover ul {
+        visibility: visible;
+
+    }
+
+    .left {
+        width: 190px;
+        min-height: 700px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        background: linear-gradient(black, blue, darkcyan);
+        margin-bottom: 5px;
+    }
+
+    .menu, .menu ul, .menu li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu li {
+        font-size: medium;
+        list-style: none;
+        position: relative;
+        width: 180px;
+        height: 30px;
+        padding: 0 5px;
+        background-color: grey;
+        line-height: 30px;
+        cursor: pointer;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu li:hover {
+        background-color: red;
+    }
+
+    /*dẫn link*/
+    a:hover {
+        color: red;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        top: 0;
+        left: 190px;
+        visibility: hidden;
+    }
+
+    .menu ul li:hover ul {
+        visibility: visible;
+    }
+
+    h3 {
+        color: white;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .theloai {
+        max-width: 190px;
+        height: 61px;
+        padding: 0px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    .right {
+        width: 200px;
+        min-height: 680px;
+        border: 1px solid #CDCDCD;
+        float: right;
+        background: linear-gradient(black, blue, darkcyan);
+        margin-bottom: 5px;
+    }
+
+    .footer {
+        height: 50px;
+        clear: both;
+        border: 1px solid #CDCDCD;
+        background: linear-gradient(blue, black);
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+
+    .info1 {
+        float: left;
+        margin: 10px;
+        padding: 10px;
+        max-width: 210px;
+        height: 320px;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .info2 {
+        float: left;
+        margin: 5px;
+        padding: 5px;
+        max-width: 520px;
+        height: 350px;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .button {
+        position: relative;
+        float: left;
+        margin-left: 420px;
+        margin-top: -140px;
+        padding: 20px 15px;
+        background-color: #33b5e5;
+        cursor: pointer;
+        border: none;
+        overflow: hidden;
+        font-size: 15px;
+    }
+
+    .button:hover {
+        background-color: #0099cc;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -60px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    .button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+    }
+
+    .listchap {
+        float: left;
+        margin-left: 230px;
+        margin-top: -70px;
+        padding: 5px;
+        width: 540px;
+        height: 350px;
+        font-size: 16px;
+        text-align: justify;
+    }
+}
+
+/* Màn hình có độ phân giải tối đa 1250px (done) */
+@media all and (max-width: 1250px) {
+    .banner {
+        float: left;
+        max-width: 1250px;
+        height: 300px;
+        margin-bottom: 5px;
+    }
+
+    .head-link {
+        max-width: 1250px;
+        height: 30px;
+        margin-bottom: 5px;
+        line-height: 30px;
+        border: 1px solid #CDCDCD;
+        background-color: gold;
+        color: red;
+        font-size: 23px;
+        font-weight: bold;
+        text-align: center;
+        clear: both;
+    }
+
+    .content {
+        width: 860px;
+        min-height: 930px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    .nav {
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        background-color: #000000;
+        border: 0px solid #CDCDCD;
+        margin-bottom: 5px;
+    }
+
+    .nav ul, .nav li {
+        padding: 0px;
+        margin: 0;
+        position: relative;
+        left: auto;
+    }
+
+    .nav li {
+        position: relative;
+        float: left;
+        list-style: none;
+    }
+
+    .nav li a {
+        width: 120px;
+        height: 30px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+        background-color: black;
+        color: white;
+        font-size: medium;
+    }
+
+    .nav ul ul li a {
+        width: 100px;
+        text-align: left;
+        padding-left: 10px;
+
+    }
+
+    .nav li a:hover {
+        font-size: 20px;
+        color: red;
+    }
+
+    .nav ul ul {
+        position: absolute;
+        top: 30px;
+        visibility: hidden;
+    }
+
+    .nav ul li:hover ul {
+        visibility: visible;
+
+    }
+
+    .left {
+        width: 190px;
+        min-height: 700px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        background: linear-gradient(black, blue, darkcyan);
+        margin-bottom: 5px;
+    }
+
+    .menu, .menu ul, .menu li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu li {
+        font-size: medium;
+        list-style: none;
+        position: relative;
+        width: 180px;
+        height: 30px;
+        padding: 0 5px;
+        background-color: grey;
+        line-height: 30px;
+        cursor: pointer;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu li:hover {
+        background-color: red;
+    }
+
+    /*dẫn link*/
+    a:hover {
+        color: red;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        top: 0;
+        left: 190px;
+        visibility: hidden;
+    }
+
+    .menu ul li:hover ul {
+        visibility: visible;
+    }
+
+    h3 {
+        color: white;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .theloai {
+        max-width: 190px;
+        height: 61px;
+        padding: 0px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .footer {
+        height: 50px;
+        clear: both;
+        border: 1px solid #CDCDCD;
+        background: linear-gradient(blue, black);
+        text-align: center;
+        color: white;
+        font-size: 10px;
+    }
+
+    .info1 {
+        float: left;
+        margin: 10px;
+        padding: 10px;
+        max-width: 210px;
+        height: 320px;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .info2 {
+        float: left;
+        margin: 5px;
+        padding: 5px;
+        max-width: 590px;
+        height: 350px;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .button {
+        position: relative;
+        float: left;
+        margin-left: 420px;
+        margin-top: -140px;
+        padding: 20px 15px;
+        background-color: #33b5e5;
+        cursor: pointer;
+        border: none;
+        overflow: hidden;
+        font-size: 15px;
+    }
+
+    .button:hover {
+        background-color: #0099cc;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -60px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    .button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+    }
+
+    .listchap {
+        float: left;
+        margin-left: 230px;
+        margin-top: -70px;
+        padding: 5px;
+        width: 600px;
+        height: 350px;
+        font-size: 16px;
+        text-align: justify;
+    }
+}
+
+/* Màn hình có độ phân giải tối đa 1062px (done) */
+@media screen and (max-width: 1062px) {
+    .banner {
+        max-width: 1062px;
+        height: 236px;
+        float: left;
+        margin-bottom: 5px;
+        padding: 0px;
+    }
+
+    .head-link {
+        max-width: 1062px;
+        height: 30px;
+        line-height: 30px;
+        background-color: gold;
+        color: red;
+        font-size: 19px;
+        font-weight: bold;
+        text-align: center;
+        clear: both;
+        margin-bottom: 5px;
+    }
+
+    .content {
+        width: 699px;
+        min-height:940px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        margin-left: 5px;
+    }
+
+    .nav {
+        max-width: 1062px;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        background-color: #000000;
+        border: 0px solid #CDCDCD;
+        margin-bottom: 5px;
+    }
+
+    .nav ul, .nav li {
+        padding: 0px;
+        margin: 0;
+        position: relative;
+        left: auto;
+    }
+
+    .nav li {
+        position: relative;
+        float: left;
+        list-style: none;
+    }
+
+    .nav li a {
+        width: 120px;
+        height: 30px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+        background-color: black;
+        color: white;
+        font-size: medium;
+    }
+
+    .nav ul ul li a {
+        width: 100px;
+        text-align: left;
+        padding-left: 10px;
+
+    }
+
+    .nav li a:hover {
+        font-size: 20px;
+        color: red;
+    }
+
+    .nav ul ul {
+        position: absolute;
+        top: 30px;
+        visibility: hidden;
+    }
+
+    .nav ul li:hover ul {
+        visibility: visible;
+
+    }
+
+    .left {
+        width: 170px;
+        min-height: 700px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        background: linear-gradient(black, blue, darkcyan);
+        margin-bottom: 5px;
+    }
+
+    .menu, .menu ul, .menu li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu li {
+        font-size: medium;
+        list-style: none;
+        position: relative;
+        width: 159.7px;
+        height: 30px;
+        padding: 0 5px;
+        background-color: grey;
+        line-height: 30px;
+        cursor: pointer;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu li:hover {
+        background-color: red;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        top: 0;
+        left: 169px;
+        visibility: hidden;
+    }
+
+    .menu ul li:hover ul {
+        visibility: visible;
+    }
+
+    h3 {
+        color: white;
+        font-size: medium;
+        text-align: center;
+    }
+    .theloai {
+        max-width: 169.4px;
+        height: 61px;
+        padding: 0px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .footer {
+        max-width: 1320px;
+        height: 50px;
+        clear: both;
+        border: 1px solid #CDCDCD;
+        background: linear-gradient(blue, black);
+        text-align: center;
+        color: white;
+        font-size: 10px;
+    }
+
+    .info1 {
+        float: left;
+        margin: 10px;
+        padding: 10px;
+        max-width: 210px;
+        height: 320px;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .info2 {
+        float: left;
+        margin: 5px;
+        padding: 5px;
+        max-width: 420px;
+        height: 350px;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .button {
+        position: relative;
+        float: left;
+        margin-left: 350px;
+        margin-top: -150px;
+        padding: 20px 15px;
+        background-color: #33b5e5;
+        cursor: pointer;
+        border: none;
+        overflow: hidden;
+        font-size: 15px;
+    }
+
+    .button:hover {
+        background-color: #0099cc;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -60px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    .button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+    }
+
+    .listchap {
+        float: left;
+        margin-left: 230px;
+        margin-top: -70px;
+        padding: 5px;
+        width: 435px;
+        height: 350px;
+        font-size: 13px;
+        text-align: justify;
+    }
+}
+
+/* Màn hình có độ phân giải tối đa 900px  */
+@media screen and (max-width: 900px) {
+    .banner {
+        max-width: 900px;
+        height: 236px;
+        float: left;
+        margin-bottom: 5px;
+        padding: 0px;
+    }
+
+    .head-link {
+        max-width: 900px;
+        height: 30px;
+        line-height: 30px;
+        background-color: gold;
+        color: red;
+        font-size: 19px;
+        font-weight: bold;
+        text-align: center;
+        clear: both;
+        margin-bottom: 5px;
+    }
+
+    .content {
+        width: 602px;
+        min-height:700px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        margin-left: 5px;
+    }
+
+    .nav {
+        max-width: 900px;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        background-color: #000000;
+        border: 0px solid #CDCDCD;
+        margin-bottom: 2px;
+    }
+
+    .nav ul, .nav li {
+        padding: 0px;
+        margin: 0;
+        position: relative;
+        left: auto;
+    }
+
+    .nav li {
+        position: relative;
+        float: left;
+        list-style: none;
+    }
+
+    .nav li a {
+        width: 105px;
+        height: 30px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+        background-color: black;
+        color: white;
+        font-size: medium;
+    }
+
+    .nav ul ul li a {
+        width: 100px;
+        text-align: left;
+        padding-left: 10px;
+
+    }
+
+    .nav li a:hover {
+        font-size: 20px;
+        color: red;
+    }
+
+    .nav ul ul {
+        position: absolute;
+        top: 30px;
+        visibility: hidden;
+    }
+
+    .nav ul li:hover ul {
+        visibility: visible;
+
+    }
+
+    .left {
+        width: 140px;
+        min-height: 700px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        background: linear-gradient(black, blue, darkcyan);
+        margin-bottom: 5px;
+    }
+
+    .menu, .menu ul, .menu li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu li {
+        font-size: medium;
+        list-style: none;
+        position: relative;
+        width: 130px;
+        height: 30px;
+        padding: 0 5px;
+        background-color: grey;
+        line-height: 30px;
+        cursor: pointer;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu li:hover {
+        background-color: red;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        top: 0;
+        left: 140px;
+        visibility: hidden;
+    }
+
+    .menu ul li:hover ul {
+        visibility: visible;
+    }
+
+    h3 {
+        color: white;
+        font-size: medium;
+        text-align: center;
+    }
+    .theloai {
+        max-width: 140px;
+        height: 50.4px;
+        line-height: 10px;
+        cursor: pointer;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .footer {
+        max-width: 900px;
+        height: 30px;
+        clear: both;
+        border: 1px solid #CDCDCD;
+        background: linear-gradient(blue, black);
+        text-align: center;
+        color: white;
+        font-size: 10px;
+    }
+
+    .info1 {
+        float: left;
+        margin: 10px;
+        padding: 10px;
+        max-width: 210px;
+        height: 320px;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .info2 {
+        float: left;
+        margin: 5px;
+        padding: 5px;
+        max-width: 310px;
+        height: 350px;
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .button {
+        position: relative;
+        float: left;
+        margin-left: 310px;
+        margin-top: -200px;
+        padding: 20px 15px;
+        background-color: #33b5e5;
+        cursor: pointer;
+        border: none;
+        overflow: hidden;
+        font-size: 15px;
+    }
+
+    .button:hover {
+        background-color: #0099cc;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -60px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    .button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+    }
+
+    .listchap {
+        float: left;
+        margin-left: 230px;
+        margin-top: -110px;
+        padding: 5px;
+        width: 348px;
+        height: 240px;
+        font-size: 10px;
+        text-align: justify;
+    }
+}
+
+/* Màn hình có độ phân giải tối đa 800px */
+@media screen and (max-width: 800px) {
+    .banner {
+        max-width: 800px;
+        height: 200px;
+        float: left;
+        margin-bottom: 5px;
+        padding: 0px;
+    }
+
+    .head-link {
+        max-width: 800px;
+        height: 30px;
+        line-height: 30px;
+        background-color: gold;
+        color: red;
+        font-size: 19px;
+        font-weight: bold;
+        text-align: center;
+        clear: both;
+        margin-bottom: 5px;
+    }
+
+    .content {
+        width: 524px;
+        min-height:620px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        margin-left: 5px;
+    }
+
+    .nav {
+        max-width: 800px;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        background-color: #000000;
+        border: 0px solid #CDCDCD;
+        margin-bottom: 2px;
+    }
+
+    .nav ul, .nav li {
+        padding: 0px;
+        margin: 0;
+        position: relative;
+        left: auto;
+    }
+
+    .nav li {
+        position: relative;
+        float: left;
+        list-style: none;
+    }
+
+    .nav li a {
+        width: 92px;
+        height: 30px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+        background-color: black;
+        color: white;
+        font-size: medium;
+    }
+
+    .nav ul ul li a {
+        width: 95px;
+        text-align: left;
+        padding-left: 10px;
+
+    }
+
+    .nav li a:hover {
+        font-size: 20px;
+        color: red;
+    }
+
+    .nav ul ul {
+        position: absolute;
+        top: 30px;
+        visibility: hidden;
+    }
+
+    .nav ul li:hover ul {
+        visibility: visible;
+
+    }
+
+    .left {
+        width: 120px;
+        min-height: 620px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        background: linear-gradient(black, blue, darkcyan);
+        margin-bottom: 5px;
+    }
+
+    .menu, .menu ul, .menu li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu li {
+        font-size: medium;
+        list-style: none;
+        position: relative;
+        width: 110px;
+        height: 30px;
+        padding: 0 5px;
+        background-color: grey;
+        line-height: 30px;
+        cursor: pointer;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu li:hover {
+        background-color: red;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        top: 0;
+        left: 120px;
+        visibility: hidden;
+    }
+
+    .menu ul li:hover ul {
+        visibility: visible;
+    }
+
+    h3 {
+        color: white;
+        font-size: medium;
+        text-align: center;
+    }
+    .theloai {
+        max-width: 140px;
+        height: 50.4px;
+        line-height: 10px;
+        cursor: pointer;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .footer {
+        max-width: 900px;
+        height: 30px;
+        clear: both;
+        border: 1px solid #CDCDCD;
+        background: linear-gradient(blue, black);
+        text-align: center;
+        color: white;
+        font-size: 10px;
+    }
+
+    .info1 {
+        float: left;
+        margin: 10px;
+        padding: 10px;
+        max-width: 150px;
+        height: 260px;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .info2 {
+        float: left;
+        margin: 5px;
+        padding: 5px;
+        max-width: 310px;
+        height: 350px;
+        font-size: 11px;
+        text-align: justify;
+    }
+
+    .button {
+        position: relative;
+        float: left;
+        margin-left: 290px;
+        margin-top: -240px;
+        padding: 10px 5px;
+        background-color: #33b5e5;
+        cursor: pointer;
+        border: none;
+        overflow: hidden;
+        font-size: 10px;
+    }
+
+    .button:hover {
+        background-color: #0099cc;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -60px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    .button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+    }
+
+    .listchap {
+        float: left;
+        margin-left: 170px;
+        margin-top: -200px;
+        padding: 5px;
+        width: 330px;
+        height: 240px;
+        font-size: 10px;
+        text-align: justify;
+    }
+}
+
+/* Màn hình có độ phân giải tối đa 600px */
+@media screen and (max-width: 600px) {
+    .banner {
+        max-width: 600px;
+        height: 150px;
+        float: left;
+        margin-bottom: 5px;
+        padding: 0px;
+    }
+
+    .head-link {
+        max-width: 600px;
+        height: 20px;
+        line-height: 20px;
+        background-color: gold;
+        color: red;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        clear: both;
+        margin-bottom: 5px;
+    }
+
+    .content {
+        width: 410px;
+        min-height:520px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        margin-left: 5px;
+    }
+
+    .nav {
+        max-width: 600px;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        background-color: #000000;
+        border: 0px solid #CDCDCD;
+        margin-bottom: 2px;
+    }
+
+    .nav ul, .nav li {
+        padding: 0px;
+        margin: 0;
+        position: relative;
+        left: auto;
+    }
+
+    .nav li {
+        position: relative;
+        float: left;
+        list-style: none;
+    }
+
+    .nav li a {
+        width: 70px;
+        height: 30px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+        background-color: black;
+        color: white;
+        font-size: 10px;
+    }
+
+    .nav ul ul li a {
+        width: 55px;
+        text-align: left;
+        padding-left: 10px;
+
+    }
+
+    .nav li a:hover {
+        font-size: 15px;
+        color: red;
+    }
+
+    .nav ul ul {
+        position: absolute;
+        top: 30px;
+        visibility: hidden;
+    }
+
+    .nav ul li:hover ul {
+        visibility: visible;
+
+    }
+
+    .left {
+        width: 100px;
+        min-height: 520px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        background: linear-gradient(black, blue, darkcyan);
+        margin-bottom: 5px;
+    }
+
+    .menu, .menu ul, .menu li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu li {
+        font-size: 12px;
+        list-style: none;
+        position: relative;
+        width: 90px;
+        height: 30px;
+        padding: 0 5px;
+        background-color: grey;
+        line-height: 30px;
+        cursor: pointer;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu li:hover {
+        background-color: red;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        top: 0;
+        left: 100px;
+        visibility: hidden;
+    }
+
+    .menu ul li:hover ul {
+        visibility: visible;
+    }
+
+    h3 {
+        color: white;
+        font-size: medium;
+        text-align: center;
+    }
+    .theloai {
+        max-width: 100px;
+        height: 36px;
+        line-height: 10px;
+        cursor: pointer;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .footer {
+        max-width: 600px;
+        height: 30px;
+        clear: both;
+        border: 1px solid #CDCDCD;
+        background: linear-gradient(blue, black);
+        text-align: center;
+        color: white;
+        font-size: 10px;
+    }
+
+    .info1 {
+        float: left;
+        margin: 10px;
+        padding: 10px;
+        max-width: 120px;
+        height: 160px;
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .info2 {
+        float: left;
+        margin: 5px;
+        padding: 5px;
+        max-width: 230px;
+        height: 350px;
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .button {
+        position: relative;
+        float: left;
+        margin-left: 220px;
+        margin-top: -250px;
+        padding: 10px 5px;
+        background-color: #33b5e5;
+        cursor: pointer;
+        border: none;
+        overflow: hidden;
+        font-size: 9px;
+    }
+
+    .button:hover {
+        background-color: #0099cc;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -60px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    .button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+    }
+
+    .listchap {
+        float: left;
+        margin-left: 140px;
+        margin-top: -215px;
+        padding: 5px;
+        width: 246px;
+        height: 190px;
+        font-size: 8px;
+        text-align: justify;
+    }
+}
+
+/* Màn hình có độ phân giải tối đa 500px */
+@media screen and (max-width: 500px) {
+    .banner {
+        max-width: 500px;
+        height: 125px;
+        float: left;
+        margin-bottom: 5px;
+        padding: 0px;
+    }
+
+    .head-link {
+        max-width: 500px;
+        height: 20px;
+        line-height: 20px;
+        background-color: gold;
+        color: red;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        clear: both;
+        margin-bottom: 5px;
+    }
+
+    .content {
+        width: 343px;
+        min-height:450px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        margin-left: 5px;
+    }
+
+    .nav {
+        max-width: 500px;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+        background-color: #000000;
+        border: 0px solid #CDCDCD;
+        margin-bottom: 2px;
+    }
+
+    .nav ul, .nav li {
+        padding: 0px;
+        margin: 0;
+        position: relative;
+        left: auto;
+    }
+
+    .nav li {
+        position: relative;
+        float: left;
+        list-style: none;
+    }
+
+    .nav li a {
+        width: 60px;
+        height: 30px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+        background-color: black;
+        color: white;
+        font-size: 9px;
+    }
+
+    .nav ul ul li a {
+        width: 55px;
+        text-align: left;
+        padding-left: 10px;
+
+    }
+
+    .nav li a:hover {
+        font-size: 15px;
+        color: red;
+    }
+
+    .nav ul ul {
+        position: absolute;
+        top: 30px;
+        visibility: hidden;
+    }
+
+    .nav ul li:hover ul {
+        visibility: visible;
+
+    }
+
+    .left {
+        width: 80px;
+        min-height: 450px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        background: linear-gradient(black, blue, darkcyan);
+        margin-bottom: 5px;
+    }
+
+    .menu, .menu ul, .menu li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu li {
+        font-size: 11px;
+        list-style: none;
+        position: relative;
+        width: 70px;
+        height: 20px;
+        padding: 0 5px;
+        background-color: grey;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu li:hover {
+        background-color: red;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        top: 0;
+        left: 80px;
+        visibility: hidden;
+    }
+
+    .menu ul li:hover ul {
+        visibility: visible;
+    }
+
+    h3 {
+        color: white;
+        font-size: 10px;
+        text-align: center;
+    }
+    .theloai {
+        max-width: 90px;
+        height: 32.4px;
+        line-height: 5px;
+        cursor: pointer;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .footer {
+        max-width: 600px;
+        height: 30px;
+        clear: both;
+        border: 1px solid #CDCDCD;
+        background: linear-gradient(blue, black);
+        text-align: center;
+        color: white;
+        font-size: 10px;
+    }
+
+    .info1 {
+        float: left;
+        margin: 10px;
+        padding: 10px;
+        max-width: 90px;
+        height: 150px;
+        font-size: 7px;
+        text-align: justify;
+    }
+
+    .info2 {
+        float: left;
+        margin: 5px;
+        padding: 5px;
+        max-width: 185px;
+        height: 350px;
+        font-size: 8px;
+        text-align: justify;
+    }
+
+    .button {
+        position: relative;
+        float: left;
+        margin-left: 190px;
+        margin-top: -270px;
+        padding: 10px 5px;
+        background-color: #33b5e5;
+        cursor: pointer;
+        border: none;
+        overflow: hidden;
+        font-size: 7px;
+    }
+
+    .button:hover {
+        background-color: #0099cc;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -60px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    .button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+    }
+
+    .listchap {
+        float: left;
+        margin-left: 110px;
+        margin-top: -239px;
+        padding: 5px;
+        width: 210px;
+        height: 170px;
+        font-size: 7px;
+        text-align: justify;
+    }
+}
+
+/* Màn hình có độ phân giải tối đa 380px  */
+@media screen and (max-width: 360px) {
+    .banner {
+        float: left;
+        max-width: 375px;
+        height: 83.33px;
+        margin-bottom: 5px;
+    }
+
+    .head-link {
+        max-width: 375px;
+        height: 20px;
+        margin-bottom: 5px;
+        line-height: 20px;
+        border: 1px solid #CDCDCD;
+        background-color: gold;
+        color: red;
+        font-size: 8px;
+        font-weight: bold;
+        text-align: center;
+        clear: both;
+    }
+    .content {
+        width: 172px;
+        min-height: 420px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        margin-bottom: 5px;
+    }
+
+    .nav {
+        height: 10px;
+        background-color: #000000;
+        border: 0px solid #CDCDCD;
+        margin-bottom: 5px;
+    }
+
+    .nav ul, .nav li {
+        position: relative;
+        left: 15px;
+    }
+
+    .nav li {
+        position: relative;
+        float: left;
+        list-style: none;
+    }
+
+    .nav li a {
+        width: 30px;
+        height: 10px;
+        display: block;
+        text-decoration: none;
+        text-align: left;
+        line-height: 10px;
+        background-color: black;
+        color: white;
+        font-size: 5px;
+    }
+
+    .nav ul ul li a {
+        width: 28px;
+        text-align: left;
+        padding-left: 10px;
+
+    }
+
+    .nav li a:hover {
+        font-size: 5px;
+        color: red;
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    .nav ul ul {
+        margin-left: -35px;
+        margin-top: -20px;
+        top: 30px;
+        visibility: hidden;
+    }
+
+    .nav ul li:hover ul {
+        visibility: visible;
+
+    }
+
+    .left {
+        width: 70px;
+        min-height: 320px;
+        border: 1px solid #CDCDCD;
+        float: left;
+        background: linear-gradient(black, blue, darkcyan);
+        margin-bottom: 5px;
+    }
+
+    .menu, .menu ul, .menu li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu li {
+        font-size: 7px;
+        list-style: none;
+        position: relative;
+        width: 60px;
+        height: 20px;
+        padding: 0 5px;
+        background-color: grey;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu li:hover {
+        background-color: red;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        top: 0;
+        left: 70px;
+        visibility: hidden;
+    }
+
+    .menu ul li:hover ul {
+        visibility: visible;
+    }
+
+    h3 {
+        color: white;
+        font-size: 5px;
+        text-align: center;
+    }
+
+    .theloai {
+        max-width: 90px;
+        height: 29px;
+        padding: 0px;
+        line-height: 5px;
+        cursor: pointer;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .footer {
+        height: 30px;
+        border: 1px solid #CDCDCD;
+        background: linear-gradient(blue, black);
+        text-align: center;
+        color: white;
+        font-size: 10px;
+    }
+
+    .info1 {
+        float: left;
+        margin-top: -8px;
+        padding: 10px;
+        max-width: 100px;
+        height: 141px;
+        text-align: justify;
+        font-size: 4px;
+    }
+
+    .info2 {
+        float: left;
+        margin-top: 40px;
+        padding: 5px;
+        width: 162px;
+        height: 198px;
+        font-size: 4px;
+        text-align: justify;
+    }
+
+    .button {
+        position: relative;
+        float: left;
+        padding: 3px 5px;
+        margin-left: 35px;
+        margin-top: -165px;
+        background-color: #33b5e5;
+        cursor: pointer;
+        border: none;
+        overflow: hidden;
+        font-size: 5px;
+    }
+
+    .button:hover {
+        background-color: #0099cc;
+        box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    }
+
+    .button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -5px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    .button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+    }
+
+    .listchap {
+        float: left;
+        margin-left: -5px;
+        margin-top: -153px;
+        padding: 5px;
+        width: 162px;
+        height: 90px;
+        font-size: 4px;
+        text-align: justify;
+    }
+    .listchap ul li {
+        margin-left: -35px;
+        text-align: justify;
+    }
+
+    ul hr {
+        margin-left: -35px;
+        width: 128%;
+        border: solid slategray 0.1px;
+    }
+
+    fieldset {
+        border: solid lightslategray 0.5px;
+    }
+
+}

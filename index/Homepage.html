@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Trang chủ</title>
+    <link href="../css/Web%20truyen.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="main">
+        <div id="head">
+        <img src="../imagine/Mori2.png" alt="This picture is not available" style="width: 1350px; height: 300px">
+    </div>
+        <div id="head-link">
+        CHÀO MỪNG MỌI NGƯỜI ĐẾN VỚI MINH's LIBRARY!!!
+    </div>
+    <div id="ngang">
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Thành viên</a></li>
+            <li><a href="#">Thể loại</a>
+            <ul>
+                <li><a href="#">16+</a></li>
+                <li><a href="#">18+</a></li>
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Adventure</a></li>
+                <li><a href="#">Anime</a></li>
+                <li><a href="#">Comedy</a></li>
+                <li><a href="#">Comic</a></li>
+                <li><a href="#">Doujinshi</a></li>
+                <li><a href="#">Historical</a></li>
+                <li><a href="#">Kinh dị</a></li>
+                <li><a href="#">Lãng mạn</a></li>
+                <li><a href="#">VNcomic</a></li>
+                <li><a href="#">Trinh thám</a></li>
+                <li><a href="#">Truyện cổ</a></li>
+                <li><a href="#">Yaoi</a></li>
+                <li><a href="#">Yuri</a></li>
+            </ul></li>
+            <li><a href="#">Manga</a></li>
+            <li><a href="#">Hỏi đáp</a></li>
+            <li><a href= "../html/Login.html">Đăng nhập</a></li>
+            <li><a href="../html/Signin.html">Đăng ký</a></li>
+        </ul>
+    </div>
+    <div class="search">
+        <form action="https://www.google.com.vn/search"method="get">
+            <input type="text"/>
+            <input type="submit" value="Tìm truyện"/>
+        </form>
+    </div>
+    <br>
+    <div id="left">
+        <h3>MỤC LỤC</h3>
+        <div id="menu">
+            <ul>
+                <li><a href="#">1. Giới thiệu</a></li>
+                <li><a href="#">2. Tin tức</a>
+                <ul>
+                    <li><a href="#">2.1. Cổng truyện dịch</a></li>
+                    <li><a href="#">2.2. Tiểu thuyết</a></li>
+                    <li><a href="#">2.3. Sự kiện</a></li>
+                </ul>
+                </li>
+                <li><a href= "../html/Login.html">3. Đăng nhập</a></li>
+                <li><a href="../html/Signin.html">4. Đăng ký</a></li>
+                <li><a href="#">5. Liên hệ</a></li>
+                <li><a href="#">6. Hỏi đáp</a></li>
+            </ul>
+        </div>
+        <div id="list-truyen">
+        <br><br>
+        <img src="../imagine/1.png">
+        <br><br>
+        <img src="../imagine/2.png">
+        <br><br>
+        <img src="../imagine/3.png">
+        <br><br>
+        <img src="../imagine/4.png">
+        <br><br>
+        <img src="../imagine/5.png">
+        </div>
+    </div>
+    <div id="content">
+        <fieldset style="width: 480px; height: 120px; margin-left: 20px; margin-bottom: 0px; margin-top: 9px">
+            <legend style="text-align: center; font-size: 20px; color: green;font-weight: bold;">Tin mới</legend>
+            <p style="color: blue; font-style: italic; font-size: 16px; margin-top: 1px">
+                - Hôm nay web Minh's Library đã hoàn thành 60%<br>
+                - Đã chỉnh sửa kích cỡ font chữ Danh sách tập mới<br>
+                - Đã thay đổi danh sách tập mới<br>
+        </fieldset>
+        <fieldset style="width: 350px; height: 120px; margin-left: 550px; margin-bottom: 0px; margin-top: -135px">
+            <legend style="text-align: center; font-size: 20px; color: green;font-weight: bold;">Truyện nổi bật hôm nay</legend>
+            <div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlides" src="../imagine/slideshow1.png" style="width:100%">
+                <img class="mySlides" src="../imagine/slideshow2.png" style="width:100%">
+                <img class="mySlides" src="../imagine/slideshow3.png" style="width:100%">
+            </div>
+            <script>
+                var slideIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > x.length) {slideIndex = 1}
+                    x[slideIndex-1].style.display = "block";
+                    setTimeout(carousel, 1000); // Change image every 2 seconds
+                }
+                </script>
+        </fieldset>
+        <fieldset style="width: 880px; height: 370px; margin-left: 20px; margin-top: 25px; margin-bottom: 0px;">
+            <legend style="font-size: 20px; color: red; font-weight: bold;">Truyện nổi bật</legend>
+                <fieldset style="width: 520px; height: 320px; margin-left: 8px; margin-top: 3px;">
+                    <legend style="text-align:center;font-size: 14px; color: blue; font-weight: bold;">Truyện miễn phí</legend>
+                    <div class="story">
+                        <div class="story-row1">
+                            <a href="../html/TestSH.html"><div id="list-sach"><img src="../imagine/Sherlock1.png" width="140" height="215" style="margin-left: 8px; margin-top: 10px; border: 2px solid black;"></div></a>
+                            <a href="../html/TestSH.html" style=" text-decoration: none"><p style="text-align: center; font-size: 14px;font-weight: bold; margin-left: -138px; margin-top: 238px">Sherlock Holmes<br>Tập 1</p>
+                            </a>
+                        </div>
+                        <div class="story2-row2" style="float: right; margin-top: -275px; margin-right: -30px">
+                            <img src="../imagine/Mermaid.jpg" width="140" height="215" style="margin-left: 8px; border: 2px solid black;">
+                            <p style="text-align: center; font-size: 14px; font-weight: bold; margin-left: 15px;">Nàng tiên cá</p>
+                        </div>
+                        <div class="story2-row3" style="float: left; margin-top: -275px; margin-left: 355px;">
+                            <img src="../imagine/Naruto1.png" width="140" height="215" style="margin-left: 8px; border: 2px solid black;">
+                            <p style="text-align: center; font-size: 14px;font-weight: bold; margin-left: 0px;">Naruto Shippuuden<br>Tập 72</p>
+                        </div>
+                    </div>
+                </fieldset>
+            <fieldset style="width: 290px; height: 320px; margin-right: 2px; margin-top: -336px; float: right; border: 2px solid red;">
+                <legend style="text-align:center;font-size: 14px; color: red; font-weight: bold;">Truyện trả phí</legend>
+                            <div class="story">
+                                <div class="story-row1">
+                                    <img src="../imagine/Sherlock2.jpg" width="164" height="250" style="margin-left: 72px; border: 3px solid red;">
+                                    <p style="font-size:16px; color: darkred; font-weight: bold; text-align: center">Sherlock Holmes<br> -Vụ án hình xăm hoa hồng-</p>
+                                </div>
+                            </div>
+            </fieldset>
+            </fieldset>
+        <fieldset style="width: 880px; height: 620px; margin-left: 20px; margin-bottom: 0px; margin-top: 9px">
+            <legend style="font-size: 20px; color: darkcyan;font-weight: bold;">Danh sách truyện</legend>
+                <div class="story2-row4" style="float: left; margin-top: 10px; margin-left: 70px;">
+                    <img src="../imagine/conan%2092.png" width="140" height="215" style="margin-left: 8px; border: 2px solid black;">
+                    <p style="font-size: 14px;font-weight: bold; margin-left: 45px;">Conan tập 92</p>
+                </div>
+                <div class="story2-row5" style="float: left; margin-top: 10px; margin-left: 40px;">
+                    <img src="../imagine/PKM%20vol.52.jpg" width="140" height="215" style="margin-left: 8px; border: 2px solid black;">
+                    <p style="font-size: 14px;font-weight: bold; margin-left: 0px; text-align: center">Pokemon Đặc biệt<br>Tập 52</p>
+                </div>
+                <div class="story2-row6" style="float: left; margin-top: 10px; margin-left: 40px;">
+                    <img src="../imagine/HF-4.png" width="140" height="215" style="margin-left: 8px; border: 2px solid black;">
+                    <p style="font-size: 14px;font-weight: bold; margin-left: 15px; text-align: center">Fate/Stay Night <br> Heaven's Feel Tập 4</p>
+                </div>
+                <div class="story2-row7" style="float: left; margin-top: 10px; margin-left: 40px">
+                    <img src="../imagine/Mermaid.jpg" width="140" height="215" style="margin-left: 8px; border: 2px solid black;">
+                    <p style="font-size: 14px;font-weight: bold; margin-left: 15px;text-align: center; ">Nàng tiên cá</p>
+                </div>
+
+                <div class="story2-row4" style="float: left; margin-top: 300px; margin-left: -728px;">
+                    <img src="../imagine/HP7.jpg" width="140" height="215" style="margin-left: 8px; border: 2px solid black;">
+                    <p style="font-size: 14px;font-weight: bold; margin-left: 15px; text-align: center">Harry Potter<br>và Bảo bối tử thần</p>
+                </div>
+                <div class="story2-row5" style="float: left; margin-top: 300px; margin-left: -537px;">
+                    <img src="../imagine/GoT.jpg" width="140" height="215" style="margin-left: 8px; border: 2px solid black;">
+                    <p style="font-size: 14px;font-weight: bold; margin-left: 0px; text-align: center">Trò chơi vương quyền<br>Nước mắt sói tuyết</p>
+                </div>
+                <div class="story2-row6" style="float: left; margin-top: 300px; margin-left: -342px;">
+                    <img src="../imagine/HTB.jpg" width="140" height="215" style="margin-left: 8px; border: 2px solid black;">
+                    <p style="font-size: 14px;font-weight: bold; margin-left: 15px; text-align: center">Hoàng tử bé</p>
+                </div>
+                <div class="story2-row7" style="float: left; margin-top: 22px; margin-left: 40px">
+                    <img src="../imagine/TK.jpg" width="140" height="215" style="margin-left: 8px; border: 2px solid black;">
+                    <p style="font-size: 14px;font-weight: bold; margin-left: 15px;text-align: center">Truyện Kiều</p>
+                </div>
+            <a href="##" style="font-size: 15px; text-decoration: none; font-style: italic; margin-left: 780px">XEM THÊM....</a>
+        </fieldset>
+    </div>
+    <div id="right">
+        <h3>DANH SÁCH TẬP MỚI</h3>
+        <ol style="font-size: 12px; color: gold;">
+            <li>Conan chap 1000</li><br>
+            <li>Heaven's Feel chap 16</li><br>
+            <li>Sherlock Holmes tập 5</li><br>
+            <li>Fate/Apocrypha chap 6</li><br>
+            <li>Our story chap 62</li><br>
+            <li>Boruto chap 15</li><br>
+            <li>Our story chap 62</li><br>
+            <li>Andersen's Tale tập 6</li><br>
+            <li>Chiến tranh và hòa bình</li><br>
+            <li>Game of Throne tập 5</li><br>
+            <li>Harry Potter tập 7</li><br>
+            <li>Tàn dư của đóa hoa</li><br>
+            <li>Truyện Kiều</li><br>
+            <li>Cô nàng cá tính</li><br>
+            <li>Biệt thự trên đồi hoang </li><br>
+        </ol>
+    </div>
+    <div id="footer" style="text-align: center; color: white; font-size: 15px">
+        <p>Copyright @phamducminh</p>
+    </div>
+</div>
+</body>
+</html>
